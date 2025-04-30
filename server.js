@@ -1,6 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import { db } from './config/db.js';
+import { db } from './db.js';
 import rateLimit from 'express-rate-limit';
 import compression from 'compression';
 import helmet from 'helmet';
